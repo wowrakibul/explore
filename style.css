@@ -6,6 +6,12 @@ body{
   margin: 0;
 }
 
+.site_links{
+  display: flex;
+  gap: 32px;
+  top: 50px;
+}
+
 a{
   color: #fff;
   background: transparent;
