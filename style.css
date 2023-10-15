@@ -1,31 +1,30 @@
-
-
-body{
+body {
   background: #1d1d2a;
   padding: 0;
   margin: 0;
   text-decoration: none;
 }
 
-h1{
+h1 {
   color: #e0e5fd
 }
 
-.site_links{
+.site_links {
   display: flex;
   gap: 32px;
-  top: 50px;
+  /* top: 50px; */
 }
 
-a{
+a {
   color: #fff;
   background: transparent;
   border: #ffeeff 2px solid;
   outline: none;
   padding: 12px 16px;
+  text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: #1d1d2a;
   background: #ffeeff;
   transition: all 5ms ease;
