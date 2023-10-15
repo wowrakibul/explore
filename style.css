@@ -7,6 +7,10 @@ body{
   text-decoration: none;
 }
 
+h1{
+  color: #e0e5fd
+}
+
 .site_links{
   display: flex;
   gap: 32px;
