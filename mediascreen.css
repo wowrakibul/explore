@@ -1,0 +1,22 @@
+@media screen and (max-width: 980px) {
+    body {
+        margin: 0px 20px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .max-scr {
+        display: none;
+    }
+
+    .min-scr {
+        display: flex;
+    }
+
+    .card {
+        max-width: 200px;
+    }
+
+}
