@@ -1,8 +1,8 @@
 body {
   background: #539BF5;
-  margin: 40px;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 a {
