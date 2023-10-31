@@ -1,0 +1,140 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+*,
+html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'DM Sans';
+    letter-spacing: 0.5px;
+}
+
+body {
+    background: var(--color-light);
+}
+
+.icon,
+#icon {
+    height: 24px;
+
+}
+
+.button-primary {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding: 16px 24px;
+    background: var(--dark-100);
+    color: var(--text-light-100);
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-weight: normal;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.button-primary:hover{
+    background: var(--button-accent-dark-bg);
+}
+:root {
+    /** Main Colors **/
+    --color-blue: #5551FFFF;
+    --color-dark: #1B2027FF;
+    --color-light: #F7FAFCFF;
+    --color-white: #ffffff;
+
+
+    /** Dark Transparent **/
+    --dark-2: #1B202705;
+    --dark-3: #1B202707;
+    --dark-4: #1B20270A;
+    --dark-6: #1B20270F;
+    --dark-8: #1B202714;
+    --dark-10: #1B202719;
+    --dark-20: #1B202733;
+    --dark-30: #1B20274C;
+    --dark-40: #1B202766;
+    --dark-50: #1B20277F;
+    --dark-60: #1B202799;
+    --dark-70: #1B2027B2;
+    --dark-80: #1B2027CC;
+    --dark-90: #1B2027E5;
+    --dark-100: #1B2027FF;
+
+
+    /** Light Transparent **/
+
+    --light-2: #F7FAFC05;
+    --light-3: #F7FAFC07;
+    --light-4: #F7FAFC0A;
+    --light-6: #F7FAFC0F;
+    --light-8: #F7FAFC14;
+    --light-10: #F7FAFC19;
+    --light-20: #F7FAFC33;
+    --light-30: #F7FAFC4C;
+    --light-40: #F7FAFC66;
+    --light-50: #F7FAFC7F;
+    --light-60: #F7FAFC99;
+    --light-70: #F7FAFCB2;
+    --light-80: #F7FAFCCC;
+    --light-90: #F7FAFCE5;
+    --light-100: #F7FAFCFF;
+
+
+    /** Text Dark **/
+    --text-dark-2: var(--dark-2);
+    --text-dark-4: var(--dark-4);
+    --text-dark-6: var(--dark-6);
+    --text-dark-8: var(--dark-8);
+    --text-dark-10: var(--dark-10);
+    --text-dark-20: var(--dark-20);
+    --text-dark-30: var(--dark-30);
+    --text-dark-40: var(--dark-40);
+    --text-dark-50: var(--dark-50);
+    --text-dark-60: var(--dark-60);
+    --text-dark-70: var(--dark-70);
+    --text-dark-80: var(--dark-80);
+    --text-dark-90: var(--dark-90);
+    --text-dark-100: var(--dark-100);
+
+
+    /** Text Light **/
+    --text-light-2: var(--light-2);
+    --text-light-4: var(--light-4);
+    --text-light-6: var(--light-6);
+    --text-light-8: var(--light-8);
+    --text-light-10: var(--light-10);
+    --text-light-20: var(--light-20);
+    --text-light-30: var(--light-30);
+    --text-light-40: var(--light-40);
+    --text-light-50: var(--light-50);
+    --text-light-60: var(--light-60);
+    --text-light-70: var(--light-70);
+    --text-light-80: var(--light-80);
+    --text-light-90: var(--light-90);
+    --text-light-100: var(--light-100);
+
+
+    /******** button color ********/
+    /* primary button */
+    --button-primary-dark-bg: var(--dark-90, #1b2027e6);
+    --button-primary-dark-txt: var(--light-100);
+
+    --button-primary-light-bg: var(--light-100, #F7FAFCFF);
+    --button-primary-light-txt: var(--dark-90);
+
+    /* seconary button */
+    --button-secondary-dark-bg: var(--dark-90, #1b2027e6);
+    --button-secondary-dark-txt: var(--light-100);
+
+    --button-secondary-light-bg: var(--light-100, #F7FAFCFF);
+    --button-secondary-light-txt: var(--dark-90);
+
+    /* accent button */
+    --button-accent-dark-bg: var(--dark-90, #1b2027e6);
+    --button-accent-dark-txt: var(--light-100);
+
+    --button-accent-light-bg: var(--light-100, #F7FAFCFF);
+    --button-accent-light-txt: var(--dark-90);
+}
