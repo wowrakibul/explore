@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700,700i&display=swap');
+
+
+.bio-code {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: var(--color-dark);
+    padding: 32px 48px;
+    border-radius: 16px;
+    font-size: 14px;
+}
+
+.bio-code comment,
+.bio-code comment::after,
+.bio-code comment::before {
+    color: var(--color-blue);
+    font-family: 'Roboto Mono';
+    font-style: italic;
+    font-weight: 100;
+}
+
+/* html comment */
+comment.html,
+comment.html-3,
+comment.html-4,
+comment.html-5,
+comment.html-6,
+comment.html::after,
+comment.html-3::after,
+comment.html-4::after,
+comment.html-5::after,
+comment.html-6::after,
+comment.html::before,
+comment.html-3::before,
+comment.html-4::after,
+comment.html-5::before,
+comment.html-6::before,
+/* css comment */
+comment.css,
+comment.css-3,
+comment.css-4,
+comment.css-5,
+comment.css-6,
+comment.css::after,
+comment.css-3::after,
+comment.css-4::after,
+comment.css-5::after,
+comment.css-6::after,
+comment.css::before,
+comment.css-3::before,
+comment.css-4::after,
+comment.css-5::before,
+comment.css-6::before {
+    color: rgb(49, 165, 6);
+}
+
+/* HTML comment style */
+comment.html::before {content: '<--';}
+comment.html-3::before {content: '<---';}
+comment.html-4::before {content: '<----';}
+comment.html-5::before {content: '<-----';}
+comment.html-6::before {content: '<------';}
+comment.html::after {content: '-->';}
+comment.html-3::after {content: '--->';}
+comment.html-4::after {content: '---->';}
+comment.html-5::after {content: '----->';}
+comment.html-6::after {content: '------>';}
+
+/* CSS comment style */
+comment.css::before {content: '/*';}
+comment.css-3::before {content: '/**';}
+comment.css-4::before {content: '/***';}
+comment.css-5::before {content: '/****';}
+comment.css-6::before {content: '/*****';}
+comment.css::after {content: '*/';}
+comment.css-3::after {content: '**/';}
+comment.css-4::after {content: '***/';}
+comment.css-5::after {content: '****/';}
+comment.css-6::after {content: '*****/';}
+
+
+/* html tag */
+bctag{color: #3867d6;}
+bctag::before,bctag::after{color: #a4a4a4;}
+bctag::before{content: '<';}
+bctag::after{content: '/>';}
+
+
+/* class  */
+bc-class{
+    color: rgb(158, 57, 252);
+}
+
