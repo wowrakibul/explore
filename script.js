@@ -6,6 +6,12 @@
  * 
  * **/
 
+// logo linking ref
+const logo = document.querySelector(".logo-container");
+logo.addEventListener("click", () => {
+    window.open("/explore/index.html#top", "_self");
+});
+
 
 // git repo button top head
 const githubButton = document.querySelector("#open-github");
