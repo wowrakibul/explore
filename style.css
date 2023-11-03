@@ -1,5 +1,5 @@
 header {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -8,12 +8,16 @@ header {
     border-bottom: 2px solid var(--dark-10);
     padding: 16px 160px;
     text-align: center;
+    position: sticky;
+    z-index: 1;
+    top: 0;
 }
 
 .logo-container {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 16px;
+    cursor: pointer;
 }
 
 .logo-container img {
@@ -48,8 +52,7 @@ header {
 }
 
 #nav-left a {
-    color: var(--text-dark-100);
-    text-decoration: none;
+    text-transform: capitalize;
 }
 
 #nav-right {
@@ -74,6 +77,9 @@ header {
 /* body contents */
 .contents {
     padding: 60px 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
 }
 
 .heading-cont {
@@ -95,3 +101,31 @@ header {
     color: var(--text-dark-80);
     width: 80%
 }
+
+.pinned-pages,
+.top-repositories {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.pinned-pages .heading {
+    display: inline-flex;
+    gap: 12px;
+}
+
+.pinned-pages .cards {
+    display: inline-flex;
+    gap: 32px;
+    width: 100%;
+}
+
+.pinned-pages .cards .item {
+    width: 90%;
+}
+
+.pinned-pages .cards .item img {
+    width: 100%
+}
+
+
